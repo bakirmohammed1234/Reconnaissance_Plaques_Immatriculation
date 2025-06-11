@@ -22,9 +22,9 @@ Ce projet permet de capturer une image via une **ESP32-CAM**, de détecter autom
 ## Configuration de l’environnement
 ### 1. Backend Python (FastAPI)
 #### a. Créer un environnement virtuel
-python -m venv venv 
-source venv/bin/activate  // Linux/macOS
-venv\Scripts\activate     // Windows
+python -m venv venv.
+source venv/bin/activate . // Linux/macOS
+venv\Scripts\activate .    // Windows
 Puis exécute le serveur :
 uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 
